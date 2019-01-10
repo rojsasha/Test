@@ -10,6 +10,7 @@ public class EntryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
         showAuth();
+
     }
 
     private void showAuth() {
