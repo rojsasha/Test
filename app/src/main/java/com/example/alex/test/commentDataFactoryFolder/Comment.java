@@ -6,6 +6,7 @@ public class Comment {
     private final long replyTo;
     private final String name;
     private final String content;
+    private Comment comment;
 
 
     public Comment(long id, long userId, long replyTo, String name, String content) {
@@ -34,5 +35,13 @@ public class Comment {
 
     public String getContent() {
         return content;
+    }
+
+    public Comment getComment() {
+        return comment;
+    }
+
+    public void setComment(Comment comment) {
+        this.comment = comment;
     }
 }
